@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <!-- TOGGLE THEME -->
+        <div id="toggle-theme" class="toggle-theme">
+          <i id="toggle-icon" class="fa fa-sun toggle-theme__icon"></i>
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+
+        <!-- TOGGLE COLOR -->
+        <div id="toggle-color" class="colors">
+          <div
+            data-color="hsl(214, 84%, 56%)"
+            class="colors__item colors__item--blue"
+          ></div>
+          <div
+            data-color="hsl(150, 84%, 56%)"
+            class="colors__item colors__item--green"
+          ></div>
+          <div
+            data-color="hsl(276, 84%, 56%)"
+            class="colors__item colors__item--purple"
+          ></div>
+          <div
+            data-color="hsl(46, 84%, 56%)"
+            class="colors__item colors__item--orange"
+          ></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <div class="card card--profile">
+          <div class="card__image-container">
+            <img
+              src="assets/images/profile.jpg"
+              alt="profile"
+              class="card__image"
+            />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Lic. Fabián Giménez</h2>
+            <p class="card__subtitle" data-section="profile" data-value="rol">
+              Analisis de Sistemas Informaticos 
+            </p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <p
+              class="card__text"
+              data-section="profile"
+              data-value="description"
+            >
+            Soy un Licenciado en Análisis de Sistemas Informáticos con una apasionada dedicación a la educación superior. Mi trayectoria profesional se destaca por mi compromiso como docente en la UNAE, donde fusiono la teoría y la práctica para cultivar las mentes innovadoras del mañana. Mi enfoque pedagógico se basa en el fomento del pensamiento crítico y la aplicación práctica de los conocimientos informáticos, preparando a los estudiantes para los desafíos tecnológicos actuales y futuros con un toque de elegancia académica.
+            </p>
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:fabian1998gimenez@gmail.com"
+                >fabian1998gimenez@gmail.com</a
+              >
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel: +595983296963">+595983296963</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card card--experience">
+          <h2 class="card__title">Experiencia</h2>
+          <div class="experience">
+            <img
+              src="assets/images/logo.png"
+              alt="logo"
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p
+                class="experience__time"
+                data-section="experience"
+                data-value="last-job-dates"
+              >
+                Julio 2023 - Diciembre 2023
+              </p>
+              <h3
+                class="experience__job"
+                data-section="experience"
+                data-value="last-job-title"
+              >
+                Docente | Metodologías Ágiles
+              </h3>
+              <p
+                class="experience__description"
+                data-section="experience"
+                data-value="last-job-description"
+              >
+                Desempeñandome como docente en la Universidad Autónoma de Encarnación en la catedra de "Metodologías Ágiles" con estudiantes del 4° año 8° semestre
+              </p>
+            </div>
+
+        </div>
+          <div class="experience">
+            <img
+              src="assets/images/logo.png"
+              alt="logo"
+              class="experience__image"
+            />
+            <div class="experience__info">
+              <p
+                class="experience__time"
+                data-section="experience"
+                data-value="last-job-dates"
+              >
+                Agosto 2019 - Julio 2021
+              </p>
+              <h3
+                class="experience__job"
+                data-section="experience"
+                data-value="last-job-title"
+              >
+                Trabajo Final de Grado
+              </h3>
+              <p
+                class="experience__description"
+                data-section="experience"
+                data-value="last-job-description"
+              >
+                Donde procedi a experimentar a traves de la Universidad Autónoma de Encarnación todo el proceso de creación de una software como propuesta a una problemática hallada en una institución, en este caso, la Séptima Región Sanitaria. Desde el análisis de requerimientos hasta la ejecución de la misma.
+              </p>
+            </div>
+          </div>
+          
+        <div class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="hobbie">
+            <div class="card__image-container">
+              <img src="assets/images/Hobbie.jpeg" alt="" class="card__image" />
+            </div>
+            <h3 class="hobbie__title">Artes Escénicas</h3>
+            <p class="card__text">
+              Además de mi sólida formación como Licenciado en Análisis de Sistemas Informáticos y mi compromiso como docente en la UNAE, mi vida se enriquece con la pasión por las artes escénicas. Soy productor, actor y bailarín en la prestigiosa Agrupación Artística Jopara Ensamble Itapúa. Esta dualidad entre la tecnología y las artes escénicas no solo refleja mi versatilidad, sino también mi profundo aprecio por la creatividad y la expresión artística. A través de mi participación en la agrupación, busco equilibrar la precisión del mundo informático con la emotividad y la gracia del mundo artístico, creando así un perfil profesional único y enriquecedor.
+            </p>
+            </div>
+        </div>
+      </section>
+      <section class="column column--right">
+        <div class="card_zoom">
+          <h2 class="card__title no-margin">Codigos</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-label">0</span>
+              <span class="skills__end-label">100%</span>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Python</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">PhP</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Laravel</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+<!--             <div class="skills__item">
+              <p class="skills__tech">React</p>
+              <div class="skills__bar skills__bar--60"></div> -->
+            </div>
+          </div>
+        </div>
+        <div class="card_zoom">
+          <h2 class="card__title no-margin">Diseño</h2>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-label">0</span>
+              <span class="skills__end-label">100%</span>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Photoshop</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Light Room</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card_zoom">
+          <h2 class="card__title no-margin">Multimedia</h2>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-label">0</span>
+              <span class="skills__end-label">100%</span>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Capcut</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Audicity</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">SonyVegas</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/reporteGrafico.png"
+              alt="Landing page project"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag"># PhP</span>
+              <span class="project__tag"># Laravel</span>
+              <span class="project__tag"># Chart.js</span>
+              <span class="project__tag"># XAMPP</span>
+              <span class="project__tag"># Composer</span>
+            </div>
+
+            <h2 class="card__title no-margin">MODULO DE REPORTES GRÁFICOS PARA EL SERVICIO DE LA VII REGIÓN SANITARIA EN LA LUCHA CONTRA</h2>
+            <p class="card__text">
+              Soy el autor del Módulo de Reportes Gráficos para el Servicio de la VII Región Sanitaria en la lucha contra el dengue, proyecto que constituyó mi Trabajo Final de Grado. Mi enfoque en análisis de sistemas informáticos se fusionó con mi compromiso por la salud pública, proporcionando a la región una herramienta avanzada para la visualización y análisis de datos cruciales. Esta iniciativa demuestra mi capacidad para abordar desafíos complejos y destaca mi compromiso con la innovación en la gestión sanitaria.
+            </p>
+            
+            <div class="buttons">
+              <a href="https://drive.google.com/file/d/1L8U_XYgJswrYmRBAQjT_YiVy-ApASLf_/view?usp=drive_link" class="button button--primary">Demo</a>
+              <a href="https://github.com/fabian1998gimenez/pruebareportes" class="button button--ghost">Codigo</a>
+            </div>
+          </div>
+        </div>
+        <div class="card card--project">
+          <div class="card__image-container">
+            <img
+              src="assets/images/CALCULADORA.png"
+              alt="Landing page project"
+              class="card__image"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag"># HTML</span>
+              <span class="project__tag"># CSS</span>
+              <span class="project__tag"># JavaScript</span>
+              <span class="project__tag"># Responsive</span>
+            </div>
+
+            <h2 class="card__title no-margin">Calculadora Basal</h2>
+            <p class="card__text">
+              Durante el bootcamp, enfrenté el desafío apasionante de desarrollar una calculadora basal diseñada para agilizar los cálculos cruciales en el ámbito de la enfermería. Mi objetivo era proporcionar a los profesionales de la salud una herramienta eficiente que facilitara el proceso de obtener resultados precisos y rápidos en sus cálculos médicos.
+            </p>
+            <p class="card__text card__text--hide-in-mobile">
+              La calculadora basal resultante no solo optimiza el tiempo empleado en los cálculos, sino que también representa un esfuerzo significativo para mejorar la eficiencia en entornos clínicos.
+            </p>
+            <div class="buttons">
+              <a href="https://fabian1998gimenez.github.io/calculadoraHidratacion.github.io/" class="button button--primary">Demo</a>
+              <a href="https://github.com/fabian1998gimenez/calculadoraHidratacion.github.io" class="button button--ghost">Codigo</a>
+            </div>
+          </div>
+        </div>
+
+        <footer class="card footer">
+          <p id="footer-copy"></p>
+          <ul class="social-links">
+            <li class="social-links__item">
+              <i class="fa fa-instagram"></i>
+            </li>
+            <li class="social-links__item">
+              <i class="fa fa-facebook"></i>
+            </li>
+            <li class="social-links__item">
+              <i class="fa fa-github"></i>
+            </li>
+          </ul>
+        </footer>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/a0ab449b77.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
